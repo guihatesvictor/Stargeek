@@ -84,3 +84,11 @@ input {
 .botoes{
     margin-top: 50px;
 }
+
+.botao1:hover{
+    background-color: rgb(70, 70, 255);
+}
+
+.botao2:hover{
+    background-color: rgb(70, 70, 255);
+}

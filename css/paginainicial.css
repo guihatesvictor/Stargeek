@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(59, 59, 59);
+    background-image: url(/img/pagina-azul-resistida_53876-88602.avif);
+    background-size: 100%;
 }
 
-.logo{
+.logo {
     padding: 20px;
 }
 
@@ -36,52 +37,53 @@ body {
     font-family: sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
 }
 
-.botoes{
+.botoes {
     margin-right: 25px;
 }
 
-main{
+main {
     text-align: center;
     font-size: 30px;
 }
 
-main > div > img{
+main>div>img {
     width: 230px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
-main > div > h2{
+main>div>h2 {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-main > div > h3{
+main>div>h3 {
     margin-top: 80px;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-bottom: 50px;
 }
 
-ul > li{
+ul>li {
     color: rgb(122, 122, 122);
     list-style-type: circle;
 }
 
-.text1{
+.text1 {
     color: white;
     font-size: 40px;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-.botao3{
+.botao3 {
     text-decoration: none;
     border: rgb(0, 0, 0) solid;
     background-color: rgb(0, 0, 255);
@@ -91,4 +93,9 @@ ul > li{
     color: rgb(0, 0, 0);
     font-size: 25px;
     font-family: sans-serif;
+}
+
+.botao3:hover {
+    transition: 300ms;
+    transform: scale(1.1);
 }

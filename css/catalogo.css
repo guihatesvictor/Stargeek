@@ -5,13 +5,20 @@
 }
 
 body {
-    background-color: rgb(59, 59, 59);
+    background-image: url(/img/pagina-azul-resistida_53876-88602.avif);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 0 5px snow;
+
+}
+
+main{
+    max-width: 90vw;
+    margin: 0 auto;
 }
 
 header>div {
@@ -36,12 +43,17 @@ header>div>p {
     text-decoration: none;
     border: rgb(0, 0, 0) solid;
     background-color: blue;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 14px;
+    padding: 8px;
     margin-right: 20px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: sans-serif;
+}
+
+.botao1:hover{
+    transition: 300ms;
+    transform: scale(1.1);
 }
 
 .img2 {
@@ -64,6 +76,11 @@ main>h1 {
 .imgs1 {
     display: flex;
     justify-content: space-between;
+    overflow: scroll;
+}
+
+.imgs1::-webkit-scrollbar{
+    display: none;
 }
 
 .imgs1>img:hover {
@@ -73,4 +90,71 @@ main>h1 {
 
 .imgs1>img {
     margin: 40px;
+    margin-bottom: 90px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.imgs2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    overflow: scroll;
+}
+
+.imgs2::-webkit-scrollbar{
+    display: none;
+}
+
+.imgs2>img:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+.imgs2>img {
+    margin: 40px;
+}
+
+.imgs3 {
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.imgs3::-webkit-scrollbar{
+    display: none;
+}
+
+
+.imgs3>img:hover {
+    transition: 300ms;
+    transform: scale(1.1);
+}
+
+.imgs3>img {
+    margin: 40px;
+    margin-bottom: 90px;
+}
+
+.imgs3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs3>img {
+    margin: 40px;
+}
+
+.imgs2>img {
+    margin: 40px;
+    margin-bottom: 90px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.imgs3>img {
+    margin: 40px;
+    margin-bottom: 90px;
+    border: 1px solid white;
+    border-radius: 20px;
 }

@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@ body {
     background-color: rgb(59, 59, 59);
 }
 
-body > .center {
+body>.center {
     margin-bottom: 20px;
     font-size: 48px;
     text-align: center;
@@ -20,7 +20,7 @@ body > .center {
     margin-bottom: 15px;
 }
 
-.seta{
+.seta {
     padding: 20px;
 }
 
@@ -83,6 +83,10 @@ input {
     font-family: sans-serif;
 }
 
-.botoes{
+.botoes {
     margin-top: 50px;
+}
+
+.botao2:hover {
+    background-color: rgb(70, 70, 255);
 }
