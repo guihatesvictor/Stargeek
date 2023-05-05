@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url(/img/pagina-azul-resistida_53876-88602.avif);
-    background-size: 100%;
+    background-image: url(/img/curve-blue-background-design-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
+    background-size: cover;
 }
 
 .logo {
@@ -72,7 +72,7 @@ main>div>h3 {
 }
 
 ul>li {
-    color: rgb(122, 122, 122);
+    color: rgb(169, 169, 169);
     list-style-type: circle;
 }
 

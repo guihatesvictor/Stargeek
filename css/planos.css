@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(59, 59, 59);
+    background-image: url(/img/curve-blue-background-design-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
 }
 
 .logo {
@@ -22,6 +22,7 @@ body>h1 {
     font-size: 48px;
     text-align: center;
     font-size: 50px;
+    color: white;
 }
 
 .caixas {
@@ -32,7 +33,7 @@ body>h1 {
 .login-box {
     width: 345px;
     height: 457px;
-    background: #7D7D7D;
+    background: rgba(0, 0, 255, 0.327);
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
     border-radius: 29px;
 }
@@ -40,7 +41,7 @@ body>h1 {
 .login-box2 {
     width: 345px;
     height: 457px;
-    background: #7D7D7D;
+    background: rgba(0, 0, 255, 0.326);
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
     border-radius: 29px;
 }
@@ -48,7 +49,7 @@ body>h1 {
 .login-box3 {
     width: 345px;
     height: 457px;
-    background: #7D7D7D;
+    background: rgba(0, 0, 255, 0.326);
     box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.25);
     border-radius: 29px;
 }
