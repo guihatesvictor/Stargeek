@@ -6,9 +6,11 @@
 
 body {
     background-image: url(../img/fundologin.jpg);
+    display: flex;
+    flex-direction: column;
 }
 
-::placeholder{
+::placeholder {
     font-size: 17px;
     color: rgb(0, 0, 0);
 }
@@ -22,11 +24,11 @@ body>.center {
 
 .seta {
     padding: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-h1{
-    color: rgb(200, 200, 200);
+h1 {
+    color: rgb(255, 255, 255);
     margin-bottom: 60px;
 }
 
@@ -87,12 +89,11 @@ input {
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: sans-serif;
-}
-
-.botoes {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .botao2:hover {
     background-color: rgb(70, 70, 255);
+    transition-duration: 0.5s;
+    transform: scale(0.94);
 }

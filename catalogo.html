@@ -7,27 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo</title>
     <link rel="stylesheet" href="css/catalogo.css">
-    <link rel="icon" href="img/logo.png">
+    <script defer src="catalogo.js"></script>
+    <script src="cadastromidia.js"></script>
+    <link rel="icon" href="img/logo2.png">
 </head>
 
-<body>
+<body onload="filmeCadastrado()">
     <header>
         <div>
-            <a href="paginainicial.html"><img src="img/logo.png" class="logo"></a>
+            <a href="index.html"><img src="img/logo2.png" class="logo"></a>
             <p>Filmes</p>
             <p>Séries</p>
             <p>Animes</p>
+            <button onclick="botaoCdmidia()"><p>Cadastrar Mídia</p></button>
         </div>
 
         <div class="right">
             <a href="login.html" class="botao1">Sair</a>
-            <a href="perfis.html"><img src="img/sharp-account-circle.svg" class="img2"></a>
+            <a href="perfis.html"><img src="img/baseline-account-circle.svg" class="img2"></a>
         </div>
     </header>
 
     <main>
         <h1>Filmes</h1>
         <div class="imgs1">
+            <img src="img/demondeath.png">
+            <img src="img/wiplash.png">
             <img src="img/spiderman.png">
             <img src="img/blackadam.png">
             <img src="img/avengers.png">
@@ -40,7 +45,9 @@
         <h1>Séries</h1>
         <div class="imgs2">
             <img src="img/strangerthings.png">
-            <img src="img/wandinha.png">
+            <img src="img/thelastofus.png">
+            <img src="img/gotham.png">
+            <img src="img/theboys.png">
             <img src="img/titans.png">
             <img src="img/breakingbad.png">
             <img src="img/twd.png">
@@ -57,6 +64,15 @@
             <img src="img/damonslayer.png">
             <img src="img/chainsawman.png">
             <img src="img/deathnote.png">
+            <img src="img/nobasket.png">
+            <img src="img/jujutsukaisen.png">
+        </div>
+
+        <h1>Títulos cadastrados</h1> <button onclick="botaoLimparCadastros()">Limpar títulos</button>
+        <div class="imgs3">
+            <div id="titulos" class="imgs1">
+
+            </div>
         </div>
     </main>
 </body>

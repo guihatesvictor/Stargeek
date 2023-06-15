@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="css/cadastro.css">
-    <link rel="icon" href="img/logo.png">
+    <link rel="icon" href="img/logo2.png">
+    <script defer src="cadastro.js"></script>
 </head>
+
 <body>
-    <a href="paginainicial.html" class="seta"><img src="img/seta.png"></a>
+    <a href="index.html" class="seta"><img src="img/seta2.png"></a>
     <div class="center">
-    <h1>Cadastro</h1>
+        <h1>Cadastro</h1>
     </div>
     <div class="login-box">
-         <input type="text" placeholder="Nome" class="nome">
-        <input type="text" placeholder="Email" class="email">
-        <input type="password" placeholder="Senha" class="senha">
-        <input type="password" placeholder="Confirmar Senha" class="confirmarsenha">
-        <div class="botoes">
-            <a href="perfis.html" class="botao2">Cadastrar</a>
+        <input type="text" placeholder="Nome" class="nome" id="name">
+        <input type="text" placeholder="Email" class="email" id="user">
+        <input type="password" placeholder="Senha" class="senha" id="password">
+        <input type="password" placeholder="Confirmar Senha" class="confirmarsenha" id="confirmpassword">
+        <div>
+            <button onclick="botaoCadastro()" class="botao2">Cadastrar</button>
+            <button onclick="botaoLimparCadastros()" class="botao2">Limpar Cadastros</button>
         </div>
     </div>
 </body>
+
 </html>

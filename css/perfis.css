@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image: url(../img/curve-blue-background-design-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
@@ -16,15 +18,15 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-top: 30px;
 }
 
 .perfis {
     margin-top: 80px;
+    gap: 60px;
     display: flex;
     justify-content: center;
-    gap: 60px;
 }
 
 .foto {
@@ -43,3 +45,4 @@ h1 {
     line-height: 39px;
     color: #FFFFFF;
     margin-left: 25px;
+}

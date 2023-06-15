@@ -6,6 +6,8 @@
 
 body {
     background-image: url(../img/fundologin.jpg);
+    display: flex;
+    flex-direction: column;
 }
 
 ::placeholder{
@@ -92,8 +94,12 @@ input {
 
 .botao1:hover{
     background-color: rgb(70, 70, 255);
+    transition-duration: 0.4s;
+    transform: scale(0.94);
 }
 
 .botao2:hover{
     background-color: rgb(70, 70, 255);
+    transition-duration: 0.4s;
+    transform: scale(0.94);
 }

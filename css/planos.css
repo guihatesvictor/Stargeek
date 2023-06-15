@@ -5,12 +5,15 @@
 }
 
 body {
-    background-image: url(../img/curve-blue-background-design-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .logo {
-    padding: 20px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .seta {
@@ -28,6 +31,7 @@ body>h1 {
 .caixas {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 25px;
 }
 
 .login-box {
@@ -61,7 +65,7 @@ body>h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    color: #000000;
+    color: #ffffff;
     margin-left: 130px;
     margin-top: 25px;
     margin-bottom: 60px;
@@ -100,7 +104,7 @@ body>h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    color: #000000;
+    color: #ffffff;
     margin-left: 130px;
     margin-top: 25px;
     margin-bottom: 60px;
@@ -139,7 +143,7 @@ body>h1 {
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
-    color: #000000;
+    color: #ffffff;
     margin-left: 120px;
     margin-top: 25px;
     margin-bottom: 60px;

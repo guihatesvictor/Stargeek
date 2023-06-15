@@ -5,9 +5,9 @@
 }
 
 body {
-    background-image: url(../img/curve-blue-background-design-hd-wallpaper-wallpaper-1920x1080-10wallpaper.com.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,10 +15,9 @@ header {
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 0 5px snow;
-
 }
 
-main{
+main {
     max-width: 90vw;
     margin: 0 auto;
 }
@@ -33,6 +32,25 @@ header>div {
     margin-bottom: 15px;
 }
 
+button {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 41px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
 header>div>p {
     color: white;
     font-size: 26px;
@@ -41,21 +59,36 @@ header>div>p {
     margin-left: 70px;
 }
 
+header>div>button {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 29px;
+    font-size: 20px;
+}
+
+
+
 .botao1 {
     text-decoration: none;
     border: rgb(0, 0, 0) solid;
     background-color: blue;
-    border-radius: 14px;
-    padding: 8px;
+    border-radius: 10px;
+    padding: 9px;
     margin-right: 20px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: sans-serif;
 }
 
-.botao1:hover{
+.botao1:hover {
     transition: 300ms;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 .img2 {
@@ -81,7 +114,7 @@ main>h1 {
     overflow: scroll;
 }
 
-.imgs1::-webkit-scrollbar{
+.imgs1::-webkit-scrollbar {
     display: none;
 }
 
@@ -93,8 +126,9 @@ main>h1 {
 .imgs1>img {
     margin: 40px;
     margin-bottom: 90px;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 20px;
+    width: 190px;
 }
 
 .imgs2 {
@@ -104,7 +138,7 @@ main>h1 {
     overflow: scroll;
 }
 
-.imgs2::-webkit-scrollbar{
+.imgs2::-webkit-scrollbar {
     display: none;
 }
 
@@ -113,8 +147,11 @@ main>h1 {
     transform: scale(1.1);
 }
 
-.imgs2>img {
+main>.imgs2>img {
     margin: 40px;
+    margin-bottom: 90px;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .imgs3 {
@@ -123,7 +160,7 @@ main>h1 {
     overflow: scroll;
 }
 
-.imgs3::-webkit-scrollbar{
+.imgs3::-webkit-scrollbar {
     display: none;
 }
 
@@ -133,9 +170,11 @@ main>h1 {
     transform: scale(1.1);
 }
 
-.imgs3>img {
+main>.imgs3>img {
     margin: 40px;
     margin-bottom: 90px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 .imgs3 {
