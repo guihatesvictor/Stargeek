@@ -10,23 +10,23 @@ body {
     flex-direction: column;
 }
 
-::placeholder{
+::placeholder {
     font-size: 17px;
     color: rgb(49, 49, 49);
 }
 
-body > .center {
+body>.center {
     margin-bottom: 20px;
     font-size: 48px;
     text-align: center;
     font-size: 30px;
 }
 
-.seta{
+.seta {
     padding: 20px;
 }
 
-h1{
+h1 {
     color: rgb(213, 213, 213);
     margin-bottom: 70px;
 }
@@ -88,17 +88,17 @@ input {
     font-family: sans-serif;
 }
 
-.botoes{
+.botoes {
     margin-top: 50px;
 }
 
-.botao1:hover{
+.botao1:hover {
     background-color: rgb(70, 70, 255);
     transition-duration: 0.4s;
     transform: scale(0.94);
 }
 
-.botao2:hover{
+.botao2:hover {
     background-color: rgb(70, 70, 255);
     transition-duration: 0.4s;
     transform: scale(0.94);
